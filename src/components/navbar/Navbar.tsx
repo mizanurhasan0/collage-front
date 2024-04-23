@@ -14,7 +14,20 @@ const Menus = [
   { name: "About", path: NavLink.ABOUT, icon: Category },
   { name: "Contact", path: NavLink.CONTACT, icon: Category },
 ]
-
+// বিভাগীয় পরিচয়
+// বিভাগীয় প্রধান এর বার্তা
+// শিক্ষকদের তথ্য
+// কর্মচারী তথ্য
+// লাইব্রেরি ও সেমিনার
+// ফিল্ড ওয়ার্ক
+// পরীক্ষা
+// ফলাফল
+// বিজ্ঞপ্তি"
+// শিক্ষার্থীদের তথ্য
+// কলেজের গুরুত্বপূর্ণ তথ্য
+// প্রকাশনা
+// বই মেলা
+// খেলাধুলা ও গেমস
 export default function Navbar() {
   const pathName = usePathname();
   return (

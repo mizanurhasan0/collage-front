@@ -29,10 +29,10 @@ export default function SlideShow() {
 
     return (
         <div className="w-full h-[22.5rem] container mx-auto box-border relative">
-            <div className="h-full flex overflow-hidden">
+            <div className="h-full flex overflow-hidden min-w-full">
                 {images.map((img, i) => (
-                    <div key={i} className="translate-x-full ease-out duration-1000" style={{ transition: 'translate 300mx case-in-out', translate: `${-100 * (curIdx + 1)}%` }}>
-                        <CImg src={img} className="w-screen" />
+                    <div key={i} className="translate-x-full ease-out duration-1000 min-w-full" style={{ transition: 'translate 300mx case-in-out', translate: `${-100 * (curIdx + 1)}%` }}>
+                        <CImg src={img} className="" />
                     </div>
                 ))}
             </div>
